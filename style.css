@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+body{
+    background-color: #111111;
+    color: white;
+}
+.left{
+    background-color: rgba(128, 128, 128, 0.80);
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.right{
+    background-color: blue;
+    width: 68%;
+   
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    background-color: rgb(159, 40, 40);
+}
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   gap:10px;
+    background-color: ;
+}
+.header img{
+    width: 20px;
+}
+.header h1{
+    font-size: 20px;
+}
+.logoContainer{
+    display: flex;
+    
+}
+.header ul li{
+    list-style: none;
+    display: flex;
+    gap:4px;
+}
+.content{
+    background-color: pink;
+}
