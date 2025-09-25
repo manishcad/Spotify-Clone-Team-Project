@@ -1,54 +1,123 @@
 *{
-    margin: 0;
-    padding: 0;
-
-    
+margin: 0px;
+padding: 0px;
 }
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 10px; */
+}
+
 body{
-    background-color: #111111;
+    background-color: black;
     color: white;
 }
-.left{
-    background-color: rgba(128, 128, 128, 0.80);
-    width: 30%;
-    padding: 10px;
+.home{
+    margin: 10px;
+    gap: 5px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.home ul li{
     display: flex;
-    flex-direction: column;
-    gap:5px;
+    gap: 10px;
 }
-.right{
-    background-color: blue;
-    width: 68%;
-   
-}
-.header{
-    display: flex;
-    flex-direction: column;
-    gap:5px;
-    background-color: rgb(159, 40, 40);
-}
-.main{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-   gap:10px;
-    background-color: ;
-}
-.header img{
-    width: 20px;
-}
-.header h1{
-    font-size: 20px;
-}
-.logoContainer{
-    display: flex;
-    
-}
-.header ul li{
+.home ul li img{
+    height: 15px;
+    width: 15px;
     list-style: none;
-    display: flex;
-    gap:4px;
 }
-.content{
-    background-color: pink;
+
+.left{
+    border: 2px solid red;
+    width: 30vw;
+    background-color: rgb(17, 17, 17);
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
+}
+
+.right{
+    border: 2px solid green;
+    width: 67vw;
+    position: relative;
+    top: 10px;
+     border-radius: 8px;
+}
+.flex{
+    margin: 8px;
+}
+.library{
+    border : 2px solid beige;
+    width : 30vw;
+    height: 60vh;
+    position: relative;
+    top: 20px;
+    left: 7px;
+    border-radius: 8px;
+    
+
+}
+
+.filter{
+    filter: invert(1);
+    height: 30px;
+    width: 30px;
+}
+
+.library_logo{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+.library_logo h3{
+
+    padding-left : 10px;
+}
+.nav{
+    border-radius: 5px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(71, 57, 57);
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.rightnav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    width: 210px;
+    align-items: center;
+
+}
+.btnl {
+    height: 45px;
+     font-size: 15PX;
+    width: 120px;
+    padding: 3%;
+
+    border-radius: 30PX;
+    color: rgb(24, 18, 18);
+    background-color:white;
+    transition: ease-in-out 1s;
+}
+.btnl:hover{
+     padding: 4%;
+}
+.btns{ 
+    height: 45px;
+     font-size: 15PX;
+    width: 120px;
+    padding: 3%;
+      border-color: transparent;
+    border-radius: 30PX;
+    color: rgb(247, 242, 242);
+    background-color: transparent;
+   font-weight: 500;
 }
