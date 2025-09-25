@@ -1,56 +1,62 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>spotify cloning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
 </head>
-<body>
-    <div class="main">
-        <div class="left">
-            <div class="header ">
-                <div class="logoContainer">
 
-                    <img src="images/logo.png"  class="logo">
-                    <h1>Spotify</h1>
+<body>
+    <div class="main-container">
+        <div class="left">
+            <div class="home">
+                <div class="logo">
+                    <img src="images/app png logo.png" alt="Logo Image">
                 </div>
                 <ul>
-                    <li >
-                        <i class="fa-solid fa-house"></i>
-                        <p>Home</p>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <p>Search</p>
-                    </li>
+                    <li class="flex"><img src="images/home logo.png" alt="Home icon">Home</li>
+                    <li class="flex"><img src="images/magnifying glass.png" alt="Search Icon"> Search</li>
                 </ul>
-              
-            </div>
-            <div class="content">
-                my Libary
-                <div class="songs">
-                    <ul>
-                        <li>Nasuashuhs</li>
-                        <li>Nasuashuhs</li>
-                        <li>Nasuashuhs</li>
-                        <li>Nasuashuhs</li>
-                        <li>Nasuashuhs</li>
-                    </ul>
-                </div>
             </div>
         </div>
-        <div class="right">
-            <div class="navigationBar">
 
-            </div>
-            <div class="playlistContainer">
-                Spotify Playlists
-                <div class="cards">
-                    <div class="card">  </div>
+        <div class="right">
+            <div class="nav">
+                <div class="leftnav">
+                    <div id="arrow"><svg class="leftarrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-chevron-left-icon lucide-chevron-left">
+                            <path d="m15 18-6-6 6-6" />
+                        </svg>
+                    <svg class="rightarrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right">
+                        <path d="m9 18 6-6-6-6" />
+                    </svg>
+                    </div>
                 </div>
-            </div>
+                    <div class="rightnav">
+                    <button class="btns">Sign up</button>
+                    <button class="btnl">Log in</button>
+                </div>
+        </div>
+    </div>
+    </div>
+    <div class="library">
+        <div class="library_logo">
+            <img src="images/library logo.svg" alt="" class="filter">
+            <h3>Your Library</h3>
+            <ul>
+
+            </ul>
+
+
         </div>
     </div>
 </body>
+
 </html>
